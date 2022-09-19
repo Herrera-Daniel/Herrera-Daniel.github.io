@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71e36253-89a0-4c4b-b175-d4442221ce26" name="Changes" comment="" />
+    <list default="true" id="71e36253-89a0-4c4b-b175-d4442221ce26" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/index.0be1c036.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/index.0be1c036.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+    </list>
+    <list id="a39700d2-a69f-47ba-a2c9-0bf9e25acfa2" name="ignore" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +21,18 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/.idea/workspace.xml">
+      <ranges>
+        <range start1="6" end1="7" start2="6" end2="15" changelist="71e36253-89a0-4c4b-b175-d4442221ce26" />
+        <range start1="15" end1="15" start2="23" end2="34" changelist="71e36253-89a0-4c4b-b175-d4442221ce26" />
+        <range start1="42" end1="42" start2="61" end2="62" changelist="71e36253-89a0-4c4b-b175-d4442221ce26" />
+        <range start1="46" end1="47" start2="66" end2="67" changelist="71e36253-89a0-4c4b-b175-d4442221ce26" />
+        <range start1="55" end1="56" start2="75" end2="83" changelist="a39700d2-a69f-47ba-a2c9-0bf9e25acfa2" />
+        <range start1="63" end1="64" start2="90" end2="92" changelist="a39700d2-a69f-47ba-a2c9-0bf9e25acfa2" />
+      </ranges>
+    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,11 +61,12 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="71e36253-89a0-4c4b-b175-d4442221ce26" name="Changes" comment="" />
+      <changelist id="a39700d2-a69f-47ba-a2c9-0bf9e25acfa2" name="ignore" comment="" />
       <created>1663559282574</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663559282574</updated>
-      <workItem from="1663559284052" duration="666000" />
+      <workItem from="1663559284052" duration="1991000" />
     </task>
     <task id="LOCAL-00001" summary="vite with preact, final decision">
       <created>1663559776813</created>
