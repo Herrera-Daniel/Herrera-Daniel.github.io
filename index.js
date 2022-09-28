@@ -4,11 +4,11 @@ fetch('https://api.github.com/users/herrera-daniel/repos')
         j.forEach(repo => {
             const content = `
                 <div class='repo'>
-                    <a href='${repo.html_url}'>
-                        <div class='repoName'>
+                    <div class='repoName'>
+                        <a href='${repo.html_url}'>
                             ${repo.name}
-                        </div>
-                    </a>
+                        </a>
+                    </div>
                     <div class='repoDesc'>
                         ${repo.description}
                     </div>
