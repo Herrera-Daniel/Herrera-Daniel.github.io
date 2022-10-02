@@ -1,12 +1,9 @@
-<!doctype html> 
+<!doctype html>
 <html lang="en">
-	<head>
-		<a href=""></a>
-		<a href="whatsup" class="hello"></a>
-		<style class="hello"></style>
-		<title>Daniel Herrera</title> 
-		<meta charset="utf-8">
 
+	<head>
+	<title>Daniel Herrera</title>
+		<meta charset="utf-8">
 		<meta property="og:title" content="A Basic HTML5 Template">
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="https://www.danielherrera.space">
@@ -14,23 +11,24 @@
 		<meta property="og:image" content="image.png">
 		<meta property="og:author" content="Daniel Herrera">
 
-		<link rel="stylesheet" href="index.css"
-		<link rel="stylesheet" href="reset.css"
-
+		<link rel="stylesheet" href="./index.css" 
+		<link rel="stylesheet" href="./reset.css"
 	</head>
 
 	<body>
-		<img 
-			class="profilePicture" 
-			src="https://avatars.githubusercontent.com/u/33641614?v=4" 
-			alt="Profile Picture"
-		/>
-		<div class="info">
-			<div class="name">Daniel Herrera</div>
-			<div>Full stack developer</div>
-			<div>3 years professional experience</div>
+		<div id="loadingContainer" class="loaderContent">
+			<div class="spinner"></div>
 		</div>
-		<div id="repos"></div>
+		<div id="mainContent" class="mainContent">
+			<img class="profilePicture" src="https://avatars.githubusercontent.com/u/33641614?v=4" alt="Profile Picture" />
+			<div class="info">
+				<div class="name">Daniel Herrera</div>
+				<div>Full stack developer</div>
+				<div>3 years professional experience</div>
+			</div>
+			<div id="repos"></div>
+		</div>
 		<script src="index.js"></script>
 	</body>
+
 </html>

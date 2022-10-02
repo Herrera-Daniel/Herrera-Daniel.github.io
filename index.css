@@ -1,5 +1,4 @@
 body {
-    padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,6 +7,12 @@ body {
     color: white;
 }
 
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 a {
     text-decoration: none;
     color: #E7F9A9;
@@ -58,4 +63,20 @@ a:hover {
 .repoDetails {
     align-self: flex-end;
     justify-self: flex-end;
+}
+
+.loaderContent {
+    width: 100vw;
+    height: 100vh;
+    background: #212227;
+    opacity: 1;
+    transition: opacity 1s ease-out;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.spinner {
+    
 }

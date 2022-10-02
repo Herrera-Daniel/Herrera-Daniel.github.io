@@ -18,6 +18,15 @@ fetch('https://api.github.com/users/herrera-daniel/repos')
                 </div>
             `
             document.getElementById("repos").innerHTML += content;
+            document.getElementById("mainContent").animate([
+                { // from
+                    opacity: 0,
+                },
+                { // to
+                    opacity: 1,
+                }
+            ], 2000);
+            document.getElementById("loadingContainer").hidden = true
         });
     }));
 
