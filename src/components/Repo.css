@@ -19,7 +19,7 @@
     flex: 2;
     height: 0;
     opacity: 0;
-    transition: visibility ease-in-out 400ms, opacity ease-in 600ms, height ease-in-out 800ms;
+    transition: visibility ease-in-out 400ms, opacity ease-in 400ms, height ease-in-out 800ms;
 }
 
 .repoContainer[data-clicked="true"] > .repoDesc {
