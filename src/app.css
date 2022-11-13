@@ -5,6 +5,17 @@
   text-align: center;
 }
 
+.mainContent {
+
+}
+
+.repos {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
